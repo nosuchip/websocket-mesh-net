@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "build",
+    "baseUrl": "./server",
+    "target": "es6",
+    "module": "commonjs",
+    "removeComments": false,
+    "watch": false,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "server/**/*.ts",
+    "server/**/*.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "coverage",
+    "**/*.spec.ts"
+  ]
+}
